@@ -84,9 +84,9 @@ the network is not that deep (it contains only 2 hidden layers with 4 nodes in t
 first hidden layer and 2 nodes in the second hidden layer). Had the network been
 
 ## Sample Output
-*Sample output:
-Training on 90.0% data and testing on 10.0% data using the activation function as relu
-After 2000 iterations, and having learning rate as 0.05, the total error is 126.18814749780508
+* Sample output:
+	* Training on 90.0% data and testing on 10.0% data using the activation function as relu
+	After 2000 iterations, and having learning rate as 0.05, the total error is 126.18814749780508
 
 The final weight vectors are (starting from input to output layers)
 
@@ -106,24 +106,24 @@ The final weight vectors are (starting from input to output layers)
 [[-0.49059449]
  [-0.83549019]]
  
-Testing error sum using activation function as relu: 16.811852502194906
+* Testing error sum using activation function as relu: 16.811852502194906
 more deep, ReLu had been a better activation function.
 
-It is observed that the best (though it might not be the best and we could obtain
+* It is observed that the best (though it might not be the best and we could obtain
 better results) training and testing error sum is obtained when the learning rate is
 0.05, max iterations are 2000 and the train-test split is in the ratio 90%-10%.
 
 ## Programming Instructions
-*Install Python3 and add scikit-learn, pandas, numpy dependencies
-*Run the NeuralNet.py file on IDE such as Pycharm. It will ask for user input.
-*Press the following keys for the activation functions: 
-  	*Press 1 for Sigmoid 
-		*Press 2 for Tanh 
-		*Press 3 for ReLu 
-		*Pressing any other key will result in the activation function being sigmoid
-*To change the train test split percentage, input the amount in between 0.0 to 1.0 on line 230 for the variable train_test_split_size.
-*To change the max iterations for training, input the amount on line 233 for the variable max_iteratons.
-*To change the learning rate for training, input the amount on line 236 for the variable learning_rate.
-*To change the dataset, either input the file path (relative or absolute) or give the dataset URL on line 240 for the variable dataset_file.
+* Install Python3 and add scikit-learn, pandas, numpy dependencies
+* Run the NeuralNet.py file on IDE such as Pycharm. It will ask for user input.
+* Press the following keys for the activation functions: 
+  	* Press 1 for Sigmoid 
+	* Press 2 for Tanh 
+	* Press 3 for ReLu 
+	* Pressing any other key will result in the activation function being sigmoid
+* To change the train test split percentage, input the amount in between 0.0 to 1.0 on line 230 for the variable train_test_split_size.
+* To change the max iterations for training, input the amount on line 233 for the variable max_iteratons.
+* To change the learning rate for training, input the amount on line 236 for the variable learning_rate.
+* To change the dataset, either input the file path (relative or absolute) or give the dataset URL on line 240 for the variable dataset_file.
 
 
