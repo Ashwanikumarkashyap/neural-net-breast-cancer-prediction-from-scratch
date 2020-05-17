@@ -1,4 +1,4 @@
-# NeuralNet - Breast Cancer Prediction
+# NeuralNet - Breast Cancer Prediction (from scratch)
 A neural network (NN) having two hidden layers is implemented, besides the input and output layers without using any libraries in python. The program predicts the probability of having breast cancer given certain features set. The code provide choice to the user to use Sigmoid, Tanh or Relu as the activation function. Prediction accuracy is computed at the end.
 
 
